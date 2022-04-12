@@ -1,2 +1,2 @@
-github: https://github.com/MahdiMattout/CMPS_278_asst5
-heroku: https://floating-anchorage-62647.herokuapp.com/
+github: https://github.com/Julia-Kam/CMPS_278-asst5
+heroku: https://cmps278-asst.herokuapp.com/
