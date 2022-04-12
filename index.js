@@ -7,7 +7,6 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
-//
 const atFirstLoad = (collection, response) => {
   return collection
     .find()
