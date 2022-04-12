@@ -7,6 +7,11 @@ const app = express();
 app.set("view engine", "ejs");
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
+
+const server = app.listen(process.env.PORT || 8000, () => {
+  console.log('now listening to port 8000');
+})
+
 const atFirstLoad = (collection, response) => {
   return collection
     .find()
